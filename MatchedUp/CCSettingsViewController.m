@@ -10,6 +10,14 @@
 
 @interface CCSettingsViewController ()
 
+@property (strong, nonatomic) IBOutlet UISlider *ageSlider;
+@property (strong, nonatomic) IBOutlet UISwitch *menSwitch;
+@property (strong, nonatomic) IBOutlet UISwitch *womenSwitch;
+@property (strong, nonatomic) IBOutlet UISwitch *singlesSwitch;
+@property (strong, nonatomic) IBOutlet UIButton *logoutButton;
+@property (strong, nonatomic) IBOutlet UIButton *editProfileButton;
+
+
 @end
 
 @implementation CCSettingsViewController
@@ -34,5 +42,30 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+#pragma mark - IBActions
+
+- (IBAction)logoutButtonPressed:(UIButton *)sender
+{
+    
+}
+
+- (IBAction)editProfileButtonPressed:(UIButton *)sender
+{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @end

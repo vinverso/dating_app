@@ -10,6 +10,9 @@
 
 @interface CCEditProfileViewController ()
 
+@property (strong, nonatomic) IBOutlet UITextView *tagline;
+@property (strong, nonatomic) IBOutlet UIImageView *profilePic;
+
 @end
 
 @implementation CCEditProfileViewController
@@ -33,6 +36,12 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - IBActions
+
+
+- (IBAction)savePressed:(UIBarButtonItem *)sender {
 }
 
 @end

@@ -10,6 +10,14 @@
 
 @interface CCProfileViewController ()
 
+@property (strong, nonatomic) IBOutlet UIImageView *profilePic;
+@property (strong, nonatomic) IBOutlet UILabel *location;
+@property (strong, nonatomic) IBOutlet UILabel *age;
+@property (strong, nonatomic) IBOutlet UILabel *status;
+@property (strong, nonatomic) IBOutlet UILabel *tagline;
+
+
+
 @end
 
 @implementation CCProfileViewController
